@@ -234,7 +234,7 @@ hr {
 
 body, p {
   -webkit-font-smoothing: antialiased !important;
-  color: #999;
+  color: #020101;
   line-height: 28px;
   font-weight: 400;
   font-size: 16px;
@@ -279,7 +279,7 @@ body.boxed {
 }
 
 body.boxed .wrapper {
-  background: #111;
+  background: #ffffff;
   margin: 0 auto;
   max-width: 1188px;
   box-shadow: 0 0 27px #999;
@@ -297,264 +297,16 @@ body.boxed .site-navigation.fixed {
 
 /*** Light Body ***/
 
-body.light .wrapper,
-body.light #preloader,
-body.light .header,
-body.light .bitcoin-calculator .form-input,
-body.light .footer,
-body.light.auth-page,
-body.light .user-auth > div:nth-child(2) {
+body {
   background: #fff;
 }
 
 
-body.light, body.light p,
-body.light ul.bitcoin-stats span,
-body.light .feature-box .feature-box-content p,
-body.light ul.nav.nav-tabs li a {
+
+body ul.nav.nav-tabs li a {
   color: #777;
 }
 
-body.light ul.bitcoin-stats h6,
-body.light .pricing-header h2,
-body.light  .pricing-header h2 span,
-body.light .footer .top-footer .menu ul li a,
-body.light .footer .top-footer h4.payment-title,
-body.light .footer .bottom-footer p,
-body.light .footer .social-footer ul li a,
-body.light .top-footer .contacts > div,
-body.light .terms-of-services h3 {
-  color: #555;
-}
-
-body.light ul.user li.sign-in a.btn-primary:hover,
-body.light ul.user li.sign-in a.btn-primary:focus,
-body.light ul.user li.sign-in a.btn-primary:active,
-body.light .pricing-switcher label,
-body.light .team-member:hover .team-member-caption h4,
-body.light blockquote p{
-  color: #fff;
-}
-
-body.light .site-nav-inner,
-body.light .site-navigation.fixed ul.navbar-nav,
-body.light .features-row,
-body.light .image-block,
-body.light .team-member-caption,
-body.light .image-block2,
-body.light .pricing-wrapper > li,
-body.light .bitcoin-calculator-section .container,
-body.light .facts .container,
-body.light .shop-cart table.order thead tr,
-body.light .shop-cart .qty,
-body.light .shop-cart input.qtyplus,
-body.light .shop-cart input.qtyminus,
-body.light .shop-cart .quantity,
-body.light .shop-checkout .checkout table.products thead tr,
-body.light .shop-checkout .checkout table.products th.with-bg,
-body.light .shop-checkout .checkout .payment .cheque, body.light  .shop-checkout .checkout .payment .paypal {
-  background: #e7e7e7;
-}
-
-body.light .site-navigation,
-body.light .site-navigation.fixed ul.navbar-nav {
-  border-bottom: 1px solid #ddd;
-}
-
-body.light ul.navbar-nav > li:not(.active) > a,
-body.light .navbar-nav .fa-search,
-body.light ul.navbar-nav > li a,
-body.light .feature-box .feature-box-content h3,
-body.light .title-head,
-body.light .feature-title,
-body.light .price,
-body.light .bitcoin-calculator .form-input,
-body.light .bitcoin-calculator .form-equal,
-body.light .team-member .team-member-caption h4,
-body.light .latest-post .post-title a,
-body.light .title-about,
-body.light .contact-form h3,
-body.light .footer .bottom-footer p a,
-body.light.error-page .error h3,
-body.light.blog article h4 ,
-body.light .sidebar .widget-title,
-body.light .widget.recent-posts .entry-title a,
-body.light.blog .comments-heading,
-body.light .service-box h3,
-body.light .facts .facts-content .heading-facts h2, body.light .facts h3,
-body.light .pricing h3,
-body.light .banner-area .breadcrumb>li,
-body.light  .banner-area .breadcrumb>li+li:before ,
-body.light  .shop-cart .table thead > tr > th,
-body.light  .shop-cart .table h6,
-body.light  .shop-cart .table .icon-delete-product,
-body.light  .shop-checkout h3,
-body.light  .shop-checkout .checkout table.products td.text-price,
-body.light  .facts .facts-content .heading-facts h2  {
-  color: #333;
-}
-
-body.light ul.nav.nav-tabs li a, body.light  ul.nav.nav-tabs li.active a {
-  border-left: 1px solid #ccc;
-}
-body.light .widget ul.nav.nav-tabs li a, body.light .widget  ul.nav.nav-tabs li.active a, body.light ul.nav.nav-tabs li:first-child a {
-	border-left:0;
-}
-
-body.light .bitcoin-calculator .form-input {
-  border: 1px solid #ccc;
-}
-
-body.light .dropdown-menu {
-  background: #fff;
-  border: 1px solid rgba(0,0,0,.1);
-}
-
-body.light .dropdown-menu li a:hover, body.light .dropdown-menu li.active a:hover, body.light .dropdown-menu li.active a,body.light .widget,
-body.light.blog .comments-list .comment,
-body.light .service-box > div {
-  background: #f2f2f2;
-}
-
-body.light .pricing-switcher > p {
-  background: #333;
-  border: 1px solid #333;
-}
-
-body.light .bitcoin-calculator-section p.info {
-  color: rgba(0,0,0,.3);
-}
-
-body.light .btcwdgt-headlines.btcwdgt-clean {
-  border: 1px solid #ddd !important;
-}
-
-body.light .footer hr {
-  background: #ccc;
-}
-
-body.light .footer .bottom-footer p {
-  border-top: 1px solid #ddd;
-}
-
-body.light .footer .menu ul li a:hover, body.light .footer .social-footer ul li a:hover {
-  color: #222;
-}
-
-body.light .footer .top-footer .social-footer ul li a {
-  background: rgba(0,0,0,.1);
-}
-
-body.light .footer .bottom-footer p a:hover {
-  color: #111;
-}
-
-body.light .facts-footer > div span {
-  font-weight: 600;
-}
-
-body.light .form-control {
-  border: 1px solid #ddd;
-  background: #f2f2f2;
-  color: #555;
-}
-
-body.light .form-control:focus {
-  border: 1px solid #aaa;
-}
-
-body.light.error-page .error > div {
-  background: rgba(255,255,255,.9);
-}
-
-body.light.error-page .error p {
-  color: #777;
-}
-
-body.light .back-to-top {
-  background: #ccc;
-  color: #777;
-}
-
-body.light .back-to-top:hover {
-  background: #ccc;
-  color: #333;
-}
-
-body.light.blog .meta {
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
-}
-
-
-body.light .sidebar ul.nav-tabs li, body.light .widget.recent-posts ul li {
-  border-bottom: 1px solid #ddd;
-}
-
-body.light .widget.recent-posts ul li:last-child {
-  border: 0;
-  padding-bottom: 0;
-  margin-bottom: 0;
-}
-
-body.light.blog .pagination li a {
-  color: #777;
-  border: 1px solid #ddd;
-}
-
-body.light.blog  .pagination li:not(.active) a:hover {
-  background: #ddd;
-}
-
-body.light.error-page .error .big-404,
-body.light .facts-footer > div span,
-body.light.blog .comments-list .comment-author,
-body.light h4.panel-title a.collapsed,
-body.light .contact-page-info .contact-info-box-content h4 {
-  color: #555;
-}
-
-body.light .action-text p {
-  color: #ddd;
-}
-
-body.light .panel.panel-default {
-  border-color: #ddd;
-}
-
-body.light .panel-default>.panel-heading+.panel-collapse>.panel-body {
-  border-top-color: #ddd;
-}
-
-body.light .banner-area:after, body.light  .banner-area:before,
-body.light .call-action-all:after,body.light  .call-action-all:before {
-  border-bottom: 30px solid #fff;
-}
-
-
-body.light .facts h4,
-body.light .facts span.or {
-  color: #777;
-}
-
-body.light .facts .facts-content .fact:after {
-  background: #aaa;
-}
-
-body.light .banner-area .banner-overlay {
-  background-color: rgba(255, 255, 255, 0.5);
-}
-
-body.light .banner-area hr {
-  border-top: 2px solid #333;
-}
-
-
-body.light .shop-cart .table tbody > tr,
-body.light .shop-cart .table.cart-total .section-border,
-body.light .shop-checkout .table tbody > tr {
-  border-bottom: 1px solid #ddd;
-}
 
 /*** Preloader ***/
 
@@ -566,7 +318,7 @@ body.light .shop-checkout .table tbody > tr {
   display: block;
   width: 100%;
   height: 100%;
-  background-color: #111;
+  background-color: #ffffff;
 }
 
 #preloader-content {
@@ -627,7 +379,7 @@ body.light .shop-checkout .table tbody > tr {
 /*================================================== */
 
 .header {
-  background: #1d1d1d;
+  background: #ffffff;
 }
 
 /*** Logo ***/
@@ -1055,7 +807,7 @@ ul.nav.nav-tabs li a:hover, ul.nav.nav-tabs li.active a:hover {
 }
 
 #main-slide .item.item-1 {
-  background-image: url('../images/slider/bg1.jpg');
+  background-image: url('https://img.freepik.com/free-photo/black-businessman-using-computer-laptop_53876-24736.jpg?w=1380&t=st=1677881322~exp=1677881922~hmac=e525e15f6834278f87aac00134e9573a273cb1f31a9c3eeaae5e4d3610b3f126');
 }
 
 #main-slide .item.item-2 {
@@ -4164,7 +3916,10 @@ h4.panel-title a.collapsed:before {
 
   .main-logo a img {
     margin: 0 auto;
+    
+    
   }
+   
 
   ul.user {
     text-align: center;
