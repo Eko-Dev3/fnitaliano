@@ -3,3 +3,15 @@
     height: 70px;
     width: auto;
 }
+
+/* parrafo */
+.parrafo{
+    color:#fd961a;
+    text-align: center;
+}
+/*  */
+#menu1 img,#menu2 img ,#menu3  img{
+height: 200px;
+width: 100%;
+object-fit: cover;
+}
